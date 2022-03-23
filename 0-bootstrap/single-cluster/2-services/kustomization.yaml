@@ -92,7 +92,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/prod-ref-guide/multi-tenancy-gitops-services.git
+      value: https://github.com/mw-tutorial-2-org/multi-tenancy-gitops-services.git
     - op: add
       path: /spec/source/targetRevision
       value: master
@@ -103,7 +103,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/prod-ref-guide/multi-tenancy-gitops-apps.git
+      value: https://github.com/mw-tutorial-2-org/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
       value: master
